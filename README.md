@@ -1,8 +1,8 @@
-# Bankist App
+# 💰 Bankist App
 
-This is a simple banking app simulation built with HTML, CSS, and JavaScript.
+A simple banking app simulation built with HTML, CSS, and JavaScript.
 
-## What it does
+## 🚀 What it does
 
 - **User Login:** Users can log in with a username (derived from their name initials) and a 4-digit PIN.
 - **Display Account Movements:** Shows all deposits and withdrawals as a list. Each entry shows if it was a deposit or withdrawal and the amount.
@@ -16,22 +16,23 @@ This is a simple banking app simulation built with HTML, CSS, and JavaScript.
 ## How it works
 
 - Data for each account includes owner name, movements (array of deposits and withdrawals), interest rate, PIN, and account type.
-- On login, the app verifies username and PIN, then displays user-specific data.
+- On login, the app verifies username and PIN, then welcomes the user while displaying his specific data.
 - Movements are rendered dynamically in the UI, with deposits and withdrawals styled differently.
 - Transfers and loans update the movements array and refresh the UI immediately.
 - Closing an account removes it from the stored accounts list and hides the interface.
 - Sorting toggles the order of transaction display.
 
-## Testing User Accounts
+## 🧪 Testing User Accounts
 
 To test the app’s features, use one of the predefined accounts below. Usernames are generated from the owners’ full names by taking the first letter of each name part, all lowercase.
 
-| Owner                 | Username | PIN  | Account Type |
-|-----------------------|----------|------|--------------|
-| Jonas Schmedtmann     | js       | 1111 | premium      |
-| Jessica Davis         | jd       | 2222 | standard     |
-| Steven Thomas Williams | stw      | 3333 | premium      |
-| Sarah Smith           | ss       | 4444 | basic        |
+| 👤 Owner                | 🆔 Username | 🔑 PIN  |
+|------------------------|-------------|--------|
+| Jonas Schmedtmann      | `js`        | `1111` |
+| Jessica Davis          | `jd`        | `2222` |
+| Steven Thomas Williams | `stw`       | `3333` |
+| Sarah Smith            | `ss`        | `4444` |
 
-### 🔗 Live Demo
-[Play it here](https://abderrahman-bouhmad.github.io/BANKIST-APP)
+### 🔗 Live Demo [Play it here](https://abderrahman-bouhmad.github.io/BANKIST-APP)
+<img width="2930" height="1588" alt="image" src="https://github.com/user-attachments/assets/9f16ff24-a2b1-40b9-85b5-2a5385e05e3f" />
+
